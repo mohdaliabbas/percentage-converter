@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERCENTAGE to cgpa gpa converter</title>
+</head>
+<body>
+    loving it
+</body>
+<script>
+    var name=window.prompt("WHAT IS YOUR NAME:");
+alert("WELCOME "+name);
+var cal=window.prompt("ENTER PERCENTAGE");
+alert("your cgpa is"+ Math.round(cal/9.5) )
+alert("you gpa" + Math.round(cal/100*4))
+alert("your percentage" + cal)
+</script>
+</html>
